@@ -15,7 +15,7 @@ class Calculator:
 if __name__ == "__main__":
     calculator = Calculator()
 num1 = 16
-num2 = 4
+num2 = 1
 print(f"{num1} + {num2} = {calculator.add(num1, num2)}")
 print(f"{num1} - {num2} = {calculator.subtract(num1, num2)}")
 print(f"{num1} * {num2} = {calculator.multiply(num1, num2)}")

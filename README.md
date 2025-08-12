@@ -2,6 +2,7 @@
 
 // This repository is created for the assignment shared by Herovired on Git and GitHub.
 // Due Date: 17 Aug 2025.
+## Question 1
 Step By Step Procedure:
 1) Create Github Repository
    Name: git_assignment_HeroVired
@@ -69,3 +70,9 @@ Step By Step Procedure:
     b) git merge dev
     c) git tag v2.0
     d) git push origin main --tags
+## Question 2
+Result
+<img width="1061" height="418" alt="image" src="https://github.com/user-attachments/assets/7001d5d7-619f-47ab-b8cd-eacd59141069" />
+<img width="1061" height="330" alt="image" src="https://github.com/user-attachments/assets/8dae1e26-9fb5-4a30-b615-eee1ab8b7a0e" />
+
+

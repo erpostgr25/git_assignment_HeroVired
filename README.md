@@ -73,7 +73,7 @@ Step By Step Procedure:
 ## Question 2
 Result
 <img width="1061" height="418" alt="image" src="https://github.com/user-attachments/assets/7001d5d7-619f-47ab-b8cd-eacd59141069" />
-<img width="1061" height="330" alt="image" src="https://github.com/user-attachments/assets/8dae1e26-9fb5-4a30-b615-eee1ab8b7a0e" />
-<img width="1057" height="142" alt="image" src="https://github.com/user-attachments/assets/e9ba5064-6223-4e32-95e4-0c9c12bd34fc" />
+<img width="1068" height="752" alt="image" src="https://github.com/user-attachments/assets/999f6603-7693-40fa-b541-bf57de5e4576" />
+
 
 

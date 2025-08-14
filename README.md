@@ -74,6 +74,49 @@ Step By Step Procedure:
 Result
 <img width="1061" height="418" alt="image" src="https://github.com/user-attachments/assets/7001d5d7-619f-47ab-b8cd-eacd59141069" />
 <img width="1068" height="752" alt="image" src="https://github.com/user-attachments/assets/999f6603-7693-40fa-b541-bf57de5e4576" />
-
-
-
+## Question 3
+Step By Step Procedure
+1) Create the geometry-calculator branch
+   a) git checkout -b geometry-calculator
+2) Add the initial file and push the branch
+   a) git add geometry_calculator.py
+   b) git commit -m "<your input>"
+   c) git push -u origin geometry-calculator
+3) Create feature branch for circle area
+   a) git checkout -b feature/circle-area geometry-calculator
+4) Stash the incomplete circle work
+   a) git stash push -m "Work In Progress: circle area"
+   b) git stash list
+   c) git status
+5) Create feature branch for rectangle area
+   a) git checkout geometry-calculator
+   b) git checkout -b feature/rectangle-area geometry-calculator
+6) Make partial edits for rectangle area
+   a) git stash push -m "Work In Progress: rectangle area"
+   b) git stash list
+   c) git status
+7) Return to feature/circle-area
+   a) git checkout feature/circle-area
+   b) git stash list
+8) Apply the circle stash:
+   a) git stash pop "stash@{1}"
+9) Finish implementing
+   a) git add geometry_calculator.py
+   b) git commit -m "<your message>"
+   c) git push -u origin feature/circle-area
+10) Switch to feature/rectangle-area
+   a) git checkout feature/rectangle-area
+   b) git stash list
+   c) git stash pop "stash@{0}"
+11) Finish rectangle code
+   a) git add geometry_calculator.py
+   b) git commit -m "<your message>"
+   c) git push -u origin feature/rectangle-area
+12) Create Pull Requests to dev
+   a) On GitHub: go to your repo.
+   b) For branch feature/circle-area click Compare & pull request.
+   c) Set base to dev.
+   d) Add title + description, request reviewer, create PR.
+13) Repeat for feature/rectangle-area.
+14) After Review approved merge to dev branch
+15) Later merge dev -> main (Add tag v3.0)

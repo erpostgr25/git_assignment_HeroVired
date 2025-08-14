@@ -7,7 +7,8 @@ class GeometryCalculator:
         return length * width
 if __name__ == "__main__":
     calculator = GeometryCalculator()
-radius = 5
-print(f"The area of the circle with radius {radius} = {calculator.calculate_circle_area(radius)}")
+#radius = 5
+#print(f"The area of the circle with radius {radius} = {calculator.calculate_circle_area(radius)}")
+length = 15
 width = 6
 print(f"The area of the rectangle with length {length} and width {width} = {calculator.calculate_rectangle_area(length, width)}")
